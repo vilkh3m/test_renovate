@@ -1,0 +1,13 @@
+{
+  "name": "module-c",
+  "version": "1.0.0",
+  "description": "Renovate test module C (Node.js)",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.0.0",
+    "jest": "29.3.0"
+  }
+}
