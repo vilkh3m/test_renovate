@@ -5,6 +5,7 @@
     "enabled": false
   },
   "osvVulnerabilityAlerts": false,
+  "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "packageRules": [
     {
