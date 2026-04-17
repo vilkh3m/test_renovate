@@ -1,1 +1,4 @@
 renovate-dry-run.log
+.env
+CLAUDE.md
+docs/*
