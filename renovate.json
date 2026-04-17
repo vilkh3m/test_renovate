@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "prConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "description": "module-a: max 2 open PRs at a time",
+      "matchFileNames": ["module-a/**"],
+      "prConcurrentLimit": 2
+    },
+    {
+      "description": "module-b: max 1 open PR at a time",
+      "matchFileNames": ["module-b/**"],
+      "prConcurrentLimit": 1
+    },
+    {
+      "description": "module-c: max 3 open PRs at a time",
+      "matchFileNames": ["module-c/**"],
+      "prConcurrentLimit": 3
+    }
+  ]
+}
